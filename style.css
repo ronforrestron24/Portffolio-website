@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(80, 114, 123);
+    
+}
+
+li {
+    list-style: none;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    background-color: rgb(53, 55, 75);
+    color: white;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.container-hero {
+    display: flex;
+    text-align: right;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 100px;
+    flex-direction: row-reverse;
+    background-color: white;
+    margin: 0;
+    padding: 100px;
+}
+
+.ron-profile-picture {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float: right;
+    display: flex;
+    background-color: white;
+}
+
+.container-hero > p {
+    text-align: right;
+    margin: 20px;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+    margin: 0;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace
+    ;
+   
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+img {
+    height: 200px;
+}
+
+.project {
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.container-footer {
+    height: 100px;
+    padding: 20px;
+}
+
+.background {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width: 390px) and (max-width: 600px) {
+
+    .container-hero {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .skill-container {
+        flex-wrap: wrap;
+    }
+
+    .project {
+        flex-wrap: wrap;
+    }
+
+    .background {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+}
